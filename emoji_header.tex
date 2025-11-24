@@ -1,0 +1,9 @@
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagenumbering{gobble} % This line disables page numbers for the entire document
+
+\usepackage{fontspec}
+\newfontfamily\emoji{Noto Color Emoji}[Renderer=Harfbuzz]
+\newcommand{\emojiChar}[1]{{\emoji #1}}
