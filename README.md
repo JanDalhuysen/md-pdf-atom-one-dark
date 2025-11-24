@@ -70,3 +70,49 @@ _Note: If the LaTeX converter encounters missing emojis, it will automatically u
 - `md_to_pdf_latex.cpp`: Source for LaTeX converter.
 - `emoji.lua`: Pandoc Lua filter for handling emojis.
 - `emoji_header.tex`: LaTeX header definitions.
+
+## Example
+
+Markdown:
+```markdown
+### 🧮 Setup
+
+Suppose the differential equation is:
+
+$$
+y'' + ay' + by = 0
+$$
+
+The characteristic equation is:
+
+$$
+r^2 + ar + b = 0
+$$
+
+Let’s say it has a **repeated root** $r$, meaning:
+
+$$
+r = r_1 = r_2
+$$
+
+This happens when the discriminant $D = a^2 - 4b = 0$.
+
+---
+
+### 📐 General Solution Form (Repeated Root)
+
+When the root is repeated, the general solution is:
+
+$$
+\boxed{y(x) = (C_1 + C_2 x) e^{r x}}
+$$
+
+```
+
+HTML:
+
+<img width="1216" height="897" alt="image" src="https://github.com/user-attachments/assets/8212eb5a-0306-4dd8-8124-3b62ebe82be4" />
+
+$\LaTeX$ :
+
+<img width="1866" height="901" alt="image" src="https://github.com/user-attachments/assets/578a2757-9d80-472c-bb73-20203b9786cd" />
